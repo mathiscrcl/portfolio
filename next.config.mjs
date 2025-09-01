@@ -1,23 +1,15 @@
 /** @type {import('next').NextConfig} */
-import nextMDX from "@next/mdx";
-import remarkGfm from "remark-gfm";
-import rehypePrism from "@mapbox/rehype-prism";
-
 const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
   images: {
-    domains: ["images.unsplash.com", "res.cloudinary.com"],
+    unoptimized: true
   },
+  basePath: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio' : '',
   experimental: {
     mdxRs: true,
   },
-};
+}
 
-const withMDX = nextMDX({
-  extension: /\.mdx?$/,
-  options: {
-    remarkPlugins: [remarkGfm],
-    rehypePlugins: [rehypePrism],
-  },
-});
-
-export default withMDX(nextConfig);
+export default nextConfig
