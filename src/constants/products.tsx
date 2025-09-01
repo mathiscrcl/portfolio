@@ -1,10 +1,10 @@
-import opensource from "public/images/opensource.png";
-import CMSprojet from "public/images/CMSProjet.png";
-import CodeCMS from "public/images/CodeCMS.png";
-import CodeCMS2 from "public/images/CodeCMS2.png";
-import entreeMACRO from "public/images/entreeMACRO.png";
-import CodeMACRO1 from "public/images/CodeMACRO1.png";
-import ExportMACRO from "public/images/ExportMACRO.png";
+import opensource from "../../public/images/opensource.png";
+import CMSprojet from "../../public/images/CMSProjet.png";
+import CodeCMS from "../../public/images/CodeCMS.png";
+import CodeCMS2 from "../../public/images/CodeCMS2.png";
+import entreeMACRO from "../../public/images/entreeMACRO.png";
+import CodeMACRO1 from "../../public/images/CodeMACRO1.png";
+import ExportMACRO from "../../public/images/ExportMACRO.png";
 import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
 import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
 import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
@@ -58,7 +58,7 @@ export const products = [
     description:
       "Participation au code open source de particulier sur Github.",
     thumbnail: opensource,
-    images: [,],
+    images: [],
     stack: ["Git"],
     slug: "moonbeam",
     content: (
