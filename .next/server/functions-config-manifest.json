@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "functions": {
+    "/about": {},
+    "/blog": {},
+    "/projects": {},
+    "/contact": {}
+  }
+}

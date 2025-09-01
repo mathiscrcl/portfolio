@@ -3,16 +3,8 @@ import CMSprojet from "../../public/images/CMSProjet.png";
 import CodeCMS from "../../public/images/CodeCMS.png";
 import CodeCMS2 from "../../public/images/CodeCMS2.png";
 import entreeMACRO from "../../public/images/entreeMACRO.png";
-import CodeMACRO1 from "../../public/images/codeMACRO1.png";
-import ExportMACRO from "../../public/images/exportMACRO.png";
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
-import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
-import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
-import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+import CodeMACRO1 from "../../public/images/CodeMACRO1.png";
+import ExportMACRO from "../../public/images/ExportMACRO.png";
 
 export const products = [
   {
