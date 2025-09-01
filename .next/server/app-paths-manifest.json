@@ -1,14 +1,4 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
-  "/resume/page": "app/resume/page.js",
-  "/about/page": "app/about/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/projects/page": "app/projects/page.js",
-  "/blog/clean-code/page": "app/blog/clean-code/page.js",
-  "/blog/dark-mode-with-nextjs/page": "app/blog/dark-mode-with-nextjs/page.js",
-  "/blog/how-to-win-clients/page": "app/blog/how-to-win-clients/page.js",
-  "/blog/tailwindcss-tips-and-tricks/page": "app/blog/tailwindcss-tips-and-tricks/page.js",
   "/projects/[slug]/page": "app/projects/[slug]/page.js"
 }
