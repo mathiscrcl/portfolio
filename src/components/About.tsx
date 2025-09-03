@@ -5,14 +5,16 @@ import Image from "next/image";
 
 import { motion } from "framer-motion";
 
+import DiplomeImg from "../../public/images/diplome-2.jpeg";
+import DatacampImg from "../../public/images/datacamp.png";
+
 export default function About() {
   return (
     <div>
       <div className="max-w-4xl">
         <Paragraph className="mt-4">
-          Salut ! Je suis Mathis Courcoul, diplômé d'un BUT Génie Électrique et Informatique Industrielle,
+          Bonjour ! Je suis Mathis Courcoul, diplômé d'un BUT Génie Électrique et Informatique Industrielle,
           passionné par l'automatisme industriel et en reconversion vers le Big Data.
-          Bienvenue dans mon univers où l'industrie rencontre l'intelligence artificielle !
         </Paragraph>
 
         {/* Section Formation GEII */}
@@ -32,7 +34,7 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <Image
-              src="/images/diplome-2.jpeg"
+              src={DiplomeImg}
               width={300}
               height={200}
               alt="Formation GEII"
@@ -50,7 +52,7 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <Image
-              src="/images/datacamp.png"
+              src={DatacampImg}
               width={300}
               height={200}
               alt="Certification DataCamp"
@@ -73,12 +75,12 @@ export default function About() {
           pour automatiser les processus internes a renforcé mon intérêt pour la donnée au service de la production,
           confirmant ma volonté d'orienter ma carrière vers l'industrie 4.0.
         </Paragraph>
-        
+
         <Paragraph className="mt-4">
           Mon expérience académique et professionnelle forment ma polyvalence et me permettent d'aborder des projets complexes nécessitant l'intégration de systèmes
           intelligents dans des environnements industriels.
         </Paragraph>
-        
+
         <Paragraph className="mt-4">
           Merci de votre visite, et j'ai hâte de partager cette aventure technologique avec vous !
         </Paragraph>
