@@ -11,7 +11,7 @@ import PythonLogo from "../../public/images/logos/python.png";
 import PandasLogo from "../../public/images/logos/Pandas_logo.svg.png";
 import PytorchLogo from "../../public/images/logos/Pytorch_logo.png";
 import TailwindLogo from "../../public/images/logos/tailwind.png";
-import SQLLogo from "../../public/images/logos/SQL.png";
+import SQLLogo from "../../public/images/logos/sql.png";
 
 export const TechStack = () => {
   const stack = [
