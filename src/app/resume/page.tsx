@@ -2,7 +2,7 @@
 import { Container } from "@/components/Container";
 
 export default function ResumePage() {
-  const pdfPath = "/CV_Mathis_Courcoul.pdf";
+  const pdfPath = "/portfolio/CV_Mathis_Courcoul.pdf";
 
   return (
     <Container>
@@ -25,7 +25,7 @@ export default function ResumePage() {
         <a
           href={pdfPath}
           download="CV_Mathis_Courcoul.pdf"
-          aria-label="Télécharger le CV de Mathis Courcoul"
+          aria-label="Télécharger le CV"
           style={{
             display: "inline-block",
             background: "#111827",
