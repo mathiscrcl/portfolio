@@ -14,7 +14,7 @@ export const products = [
     thumbnail: entreeMACRO,
     images: [CodeMACRO1, ExportMACRO],
     stack: ["XLWings","Panda", "Python", "Excel/VBA"],
-    slug: "aceternity",
+    slug: "macros",
     content: (
       <div>
         <p>
@@ -33,7 +33,7 @@ export const products = [
     thumbnail: CMSprojet,
     images: [CodeCMS , CodeCMS2],
     stack: ["PyTorch", "Python"],
-    slug: "algochurn",
+    slug: "CMS",
     content: (
       <div>
         <p>
@@ -52,7 +52,7 @@ export const products = [
     thumbnail: opensource,
     images: [],
     stack: ["Git"],
-    slug: "moonbeam",
+    slug: "OpenSource",
     content: (
       <div>
         <p>
