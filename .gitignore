@@ -1,1 +1,41 @@
-node_modules
+# Dépendances
+node_modules/
+
+# Builds / caches Next.js
+.next/
+out/
+dist/
+build/
+.cache/
+.turbo/
+.eslintcache
+coverage/
+
+# Environnements (ne jamais versionner)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Hébergeurs / outils
+.vercel/
+.netlify/
+
+# (Optionnel) si tu publies via le dossier docs sur la branche main,
+# retire cette ligne. Sinon, garde-la ignorée.
+# docs/
