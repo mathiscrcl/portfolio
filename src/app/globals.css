@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* Couleurs de texte principales */
+    .text-primary {
+      @apply text-gray-900 dark:text-white;
+    }
+    
+    .text-secondary {
+      @apply text-gray-600 dark:text-gray-300;
+    }
+  }
